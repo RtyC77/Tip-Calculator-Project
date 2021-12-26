@@ -1,0 +1,59 @@
+body{
+    background-color: #c2e2e5;
+}
+
+.attribution{
+    margin: auto;
+    width: fit-content;
+}
+
+#principal{
+    box-shadow: 0px 0px 8px 0px #eef8fc;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10%;
+    width: 1000px;
+    height: 400px;
+    background-color: #f3f8fa;
+}
+
+#conteudoEsquerda{
+    border-radius: 5px;
+    float: left;
+    width: 460px;
+    height: 360px;
+    margin: 20px;
+    background-color: #e7f8ff;
+}
+    .valorGorgeta{
+        width: 460px;
+        height: 100px;
+    }
+
+    .selecaoValor{
+        height: 150px;
+    }
+
+    .quantidadePessoas{
+        height: 100px;
+    }
+
+#conteudoDireita{
+    border-radius: 5px;
+    float: left;
+    width: 460px;
+    height: 360px;
+    margin: 20px;
+    background-color: #00474b;
+}
+    .quantidadePPessoa{
+        height: 100px;
+    } 
+
+    .valorTotal{
+        height: 100px;
+    }
+
+    .limpar{
+        height: 100px;
+    }

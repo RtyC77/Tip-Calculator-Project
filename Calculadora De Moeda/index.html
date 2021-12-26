@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Tip calculator app</title>
+
+</head>
+<body>
+<main id="principal">
+  <div id="conteudoEsquerda">
+    <div class="valorGorgeta">
+      <p>Valor Atual</p>
+      <input type="text" name="valorAtual" id="valorAtual">
+    </div>
+    <div class="selecaoValor">
+      <p>Selecione o Valor</p>
+      <input onclick="calcCinco()" type="button" value="5%">
+      <input onclick="calcDez()" type="button" value="10%">
+      <input onclick="calcQuinze()" type="button" value="15%">
+      <input onclick="calcVinteCinco()" type="button" value="25%">
+      <input onclick="calcCinquenta()" type="button" value="50%">
+      <input onclick="calcCustom()" type="text" placeholder="Custom"  value="">
+    </div>
+    <div class="quantidadePessoas">
+      <p>Numero de Pessoas</p>
+      <input id="qtdPessoas" type="text">
+    </div>
+  </div>
+  <div id="conteudoDireita">
+    <div class="quantidadePPessoa">
+      <span>Valor Adicional</span>
+      <p class="TText">/Por pessoa.</p>
+      <p id="valorPorPessoaFinal"></p>
+    </div>
+    <div class="valorTotal">
+      <span>Valor Total</span>
+      <p id="ValorTotal"></p>
+    </div>
+    <div class="limpar">
+      <input onclick="limpar()" type="button" value="Limpar Conteudo">
+    </div>
+  </div>
+</main>
+
+
+
+<!--
+Bill
+
+  Select Tip %
+  5%
+  10%
+  15%
+  25%
+  50%
+  Custom
+
+  Number of People
+
+  Tip Amount
+  / person
+
+  Total
+  / person
+
+  Reset
+-->  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a target="_blank" href="https://github.com/RtyC77">Rodrigo Polatto</a>./  </div>
+</body>
+</html>
