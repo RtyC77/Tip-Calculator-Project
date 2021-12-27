@@ -223,3 +223,113 @@ body{
     .limpar input:hover{
         color: rgba(7,73,79,1);
     }
+
+    @media only screen and (max-width: 400px) {
+        body {
+            background-color: #c2e2e5;
+        }
+        .hidden{
+            width: 80px;
+            margin-left: 230px;
+        }
+        #principal{
+            box-shadow: 0px 0px 8px 0px #eef8fc;
+            border-radius: 10px;
+            margin: auto;
+            margin-top: 10%;
+            width: 350px;
+            height: 800px;
+            background-color: #f3f8fa;
+        }
+        #conteudoEsquerda{
+            border-radius: 5px;
+            float: left;
+            width: 330px;
+            height: 360px;
+            margin: 10px;
+            background-color: #d6f2ff;
+        }
+        .valorGorgeta{
+            margin-bottom: -30px;
+            width: 330px;
+            height: 100px;
+        }
+
+        #valorAtual{
+            border-radius: 3px;
+            text-align: right;
+            border: 0;
+            margin-left: 20px;
+            margin-top: -10px;
+            padding: 5px;
+            font-size: 30px;
+            height: 35px;
+            width: 280px;
+            box-shadow: none;
+        }
+        .botao{
+            text-align: center;
+            width: 80px;
+            margin-left: 20px;
+            margin-top: 5px;
+            height: 50px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 20px;
+            color: rgba(255, 255, 255, 0.8);
+            border: none;
+            background-color: #00474b;
+            transition: 0.5s;
+        }
+        .botao:hover{
+            color: #00474b;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        .selecaoValor{
+            width: 330px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+        .custom{
+            width: 73px;
+        }
+        #conteudoDireita{
+            margin: 10px;
+            width: 330px;
+        }
+        .quantidadePessoas{
+            width: 330px;
+        }
+        .quantidadePPessoa{
+            width: 330px;
+        }
+        #qtdPessoas{
+            float: left;
+            margin-left: 50px;
+        }
+        #valorPorPessoaFinal{
+            margin-right: 170px;
+        }
+        #valorTotal{
+            margin-right: 170px;
+        }
+        .limpar{
+            width: 330px;
+        }
+        .limpar input{
+            padding: 10px 10px;
+            width: 180px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .attribution{
+            visibility: hidden;
+            margin: auto;
+            width: fit-content;
+        }
+        .valorTotal{
+            width: 330px;
+        }
+      }
