@@ -25,19 +25,125 @@ body{
     width: 460px;
     height: 360px;
     margin: 20px;
-    background-color: #e7f8ff;
+    background-color: #d6f2ff;
 }
+/*Estilo do topo do conteudo da esquerda*/
     .valorGorgeta{
+        margin-bottom: -30px;
         width: 460px;
         height: 100px;
     }
 
-    .selecaoValor{
-        height: 150px;
+    .valorGorgeta p{
+        color: #00474b;
+        margin-left: 20px;
+        font-size: 20px;
     }
 
+    #valorAtual{
+        border-radius: 3px;
+        text-align: right;
+        border: 0;
+        margin-left: 20px;
+        margin-top: -10px;
+        padding: 5px;
+        font-size: 30px;
+        height: 35px;
+        width: 410px;
+        box-shadow: none;
+    }
+
+    #valorAtual:focus{
+        outline: none !important;
+        border: 0.5px solid #00474b;
+    }
+
+/*Estilo do meio do conteudo da esquerda*/
+
+    .selecaoValor{
+        width: 460px;
+        height: 150px;
+        margin-bottom: 20px;
+    }
+
+    .selecaoValor p{
+        color: #00474b;
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .botao{
+        text-align: center;
+        width: 124px;
+        margin-left: 20px;
+        margin-top: 5px;
+        height: 50px;
+        border-radius: 3px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 20px;
+        color: rgba(255, 255, 255, 0.8);
+        border: none;
+        background-color: #00474b;
+        transition: 0.5s;
+    }
+    .botao:hover{
+        color: #00474b;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .custom{
+        font-size: 20px;
+        text-align: center;
+        width: 116px;
+        margin-left: 20px;
+        height: 44px;
+        
+    }
+
+    .hidden{
+        cursor: pointer;
+        border: none;
+        background-color: #00474b;
+        color: rgba(255, 255, 255, 0.8);
+        border-radius: 3px;
+        margin-left: 317px;
+        width: 124px;
+        visibility: hidden;
+        transition: visibility 2s linear 300ms, opacity 100ms;
+        transition: 0.5s;
+    }
+    .hidden:hover{
+        color: #00474b;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .custom:focus + .hidden{
+        visibility: visible;
+    }
+
+/*Estilo do final do conteudo da esquerda*/
     .quantidadePessoas{
-        height: 100px;
+        width: 460px;
+        height: 80px;
+    }
+    .quantidadePessoas p{
+        float: left;
+        color: #00474b;
+        margin-left: 20px;
+        vertical-align: middle;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    #qtdPessoas{
+        font-size: 30px;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 20px;
+        margin-right: 20px;
+        float: right;
     }
 
 #conteudoDireita{

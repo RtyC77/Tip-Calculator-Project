@@ -8,25 +8,26 @@
   <title>Tip calculator app</title>
 
 </head>
-<body>
+<body onload="botaoHidden()">
 <main id="principal">
   <div id="conteudoEsquerda">
     <div class="valorGorgeta">
       <p>Valor Atual</p>
       <input type="text" name="valorAtual" id="valorAtual">
     </div>
-    <div class="selecaoValor">
-      <p>Selecione o Valor</p>
-      <input onclick="calc(5)" type="button" value="5%">
-      <input onclick="calc(10)" type="button" value="10%">
-      <input onclick="calc(15)" type="button" value="15%">
-      <input onclick="calc(25)" type="button" value="25%">
-      <input onclick="calc(50)" type="button" value="50%">
-      <input type="text" id="valorCustom" placeholder="Custom">
-      <input onclick="calcCustom()" id="buttonCustom" type="button" value="Calcular">
-    </div>
+      <div class="selecaoValor">
+        <p>Selecione o Valor %</p>
+        <input class="botao" onclick="calc(5)" type="button" value="5%">
+        <input class="botao" onclick="calc(10)" type="button" value="10%">
+        <input class="botao" onclick="calc(15)" type="button" value="15%">
+        <input class="botao" onclick="calc(25)" type="button" value="25%">
+        <input class="botao" onclick="calc(50)" type="button" value="50%">
+        <input class="custom" type="text" id="valorCustom" placeholder="Custom">
+        <input class="hidden" onclick="calcCustom()" id="buttonCustom" type="button" value="Calcular">
+      </div>
     <div class="quantidadePessoas">
       <p>Numero de Pessoas</p>
+      
       <input id="qtdPessoas" type="text">
     </div>
   </div>

@@ -1,3 +1,4 @@
+
 function limpar() {
     //Setando valor por valor = ""
     document.getElementById("valorAtual").value = "";
